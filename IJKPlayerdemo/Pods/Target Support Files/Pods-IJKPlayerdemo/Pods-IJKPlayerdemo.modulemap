@@ -1,0 +1,6 @@
+module Pods_IJKPlayerdemo {
+  umbrella header "Pods-IJKPlayerdemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

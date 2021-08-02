@@ -1,0 +1,29 @@
+PODS:
+  - EZSwiftExtensions (1.11)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - EZSwiftExtensions (from `https://github.com/goktugyil/EZSwiftExtensions.git`, branch `swift4tag`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  EZSwiftExtensions:
+    :branch: swift4tag
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+CHECKOUT OPTIONS:
+  EZSwiftExtensions:
+    :commit: 18f1e98c9776ac793e1364e1155c9f5e2d91071d
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+SPEC CHECKSUMS:
+  EZSwiftExtensions: 9d3dc8a51818e2fbfd11099b38a2c47d0ca693d0
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 061c9fede4106032766e542b02c37b650edb8631
+
+COCOAPODS: 1.9.1

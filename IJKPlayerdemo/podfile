@@ -1,0 +1,5 @@
+target "IJKPlayerdemo" do
+pod "SnapKit"
+pod 'EZSwiftExtensions', :git => 'https://github.com/goktugyil/EZSwiftExtensions.git', :branch => 'swift4tag'
+end
+

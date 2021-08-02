@@ -7,23 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B8879D826B78B9B0022D89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8879D726B78B9B0022D89E /* AppDelegate.swift */; };
-		5B8879DA26B78B9B0022D89E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8879D926B78B9B0022D89E /* SceneDelegate.swift */; };
-		5B8879DC26B78B9B0022D89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8879DB26B78B9B0022D89E /* ViewController.swift */; };
 		5B8879DF26B78B9B0022D89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879DD26B78B9B0022D89E /* Main.storyboard */; };
 		5B8879E126B78B9D0022D89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879E026B78B9D0022D89E /* Assets.xcassets */; };
 		5B8879E426B78B9D0022D89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879E226B78B9D0022D89E /* LaunchScreen.storyboard */; };
+		5B887A5826B7C5780022D89E /* IJKPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A5326B7C5780022D89E /* IJKPlayController.swift */; };
+		5B887A5926B7C5780022D89E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A5426B7C5780022D89E /* UIView+Extension.swift */; };
+		5B887A5A26B7C5780022D89E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A5526B7C5780022D89E /* UIImage+Extension.swift */; };
+		5B887A5B26B7C5780022D89E /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A5626B7C5780022D89E /* UIButton+Block.m */; };
+		5B887A6226B7C59D0022D89E /* CommonDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A5E26B7C59D0022D89E /* CommonDefines.swift */; };
+		5B887A6326B7C59D0022D89E /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A5F26B7C59D0022D89E /* BaseNavViewController.swift */; };
+		5B887A6426B7C59D0022D89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A6026B7C59D0022D89E /* AppDelegate.swift */; };
+		5B887A6526B7C59D0022D89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B887A6126B7C59D0022D89E /* ViewController.swift */; };
+		5B887A6D26B7C6310022D89E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A6C26B7C6270022D89E /* libc++.tbd */; };
+		5B887A7026B7C6470022D89E /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A6F26B7C6390022D89E /* libbz2.tbd */; };
+		5B887A7326B7C65B0022D89E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7226B7C6540022D89E /* libz.tbd */; };
+		5B887A7726B7C66A0022D89E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7526B7C66A0022D89E /* AudioToolbox.framework */; };
+		5B887A7826B7C66A0022D89E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7626B7C66A0022D89E /* VideoToolbox.framework */; };
+		5B887A7A26B7C6740022D89E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7926B7C6740022D89E /* QuartzCore.framework */; };
+		5B887A7C26B7C67B0022D89E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7B26B7C67B0022D89E /* OpenGLES.framework */; };
+		5B887A7E26B7C6850022D89E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7D26B7C6850022D89E /* MobileCoreServices.framework */; };
+		5B887A8026B7C68D0022D89E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7F26B7C68D0022D89E /* CoreServices.framework */; };
+		5B887A8226B7C6970022D89E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A8126B7C6970022D89E /* MediaPlayer.framework */; };
+		5B887A8426B7C6A80022D89E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A8326B7C6A80022D89E /* CoreVideo.framework */; };
+		5B887A8626B7C6B10022D89E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A8526B7C6B10022D89E /* CoreGraphics.framework */; };
+		5B887A8826B7C6B90022D89E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A8726B7C6B90022D89E /* AVFoundation.framework */; };
+		5B887A8926B7C6C30022D89E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B887A7526B7C66A0022D89E /* AudioToolbox.framework */; };
+		BD2B483A7C04BF12DBAA757D /* libPods-IJKPlayerdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D833523016B8FFC32CEB1136 /* libPods-IJKPlayerdemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1968714E172E735D1801C636 /* Pods-IJKPlayerdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKPlayerdemo.release.xcconfig"; path = "Target Support Files/Pods-IJKPlayerdemo/Pods-IJKPlayerdemo.release.xcconfig"; sourceTree = "<group>"; };
 		5B8879D426B78B9B0022D89E /* IJKPlayerdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJKPlayerdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8879D726B78B9B0022D89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B8879D926B78B9B0022D89E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B8879DB26B78B9B0022D89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B8879DE26B78B9B0022D89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B8879E026B78B9D0022D89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8879E326B78B9D0022D89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8879E526B78B9D0022D89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B887A5226B7C5780022D89E /* IJKPlayerdemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IJKPlayerdemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B887A5326B7C5780022D89E /* IJKPlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKPlayController.swift; sourceTree = "<group>"; };
+		5B887A5426B7C5780022D89E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5B887A5526B7C5780022D89E /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		5B887A5626B7C5780022D89E /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		5B887A5726B7C5780022D89E /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		5B887A5E26B7C59D0022D89E /* CommonDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDefines.swift; sourceTree = "<group>"; };
+		5B887A5F26B7C59D0022D89E /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
+		5B887A6026B7C59D0022D89E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B887A6126B7C59D0022D89E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B887A6C26B7C6270022D89E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5B887A6F26B7C6390022D89E /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		5B887A7226B7C6540022D89E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5B887A7526B7C66A0022D89E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5B887A7626B7C66A0022D89E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		5B887A7926B7C6740022D89E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5B887A7B26B7C67B0022D89E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5B887A7D26B7C6850022D89E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5B887A7F26B7C68D0022D89E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		5B887A8126B7C6970022D89E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5B887A8326B7C6A80022D89E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5B887A8526B7C6B10022D89E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B887A8726B7C6B90022D89E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9971B1CF464BE934334AEC6B /* Pods-IJKPlayerdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKPlayerdemo.debug.xcconfig"; path = "Target Support Files/Pods-IJKPlayerdemo/Pods-IJKPlayerdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D833523016B8FFC32CEB1136 /* libPods-IJKPlayerdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IJKPlayerdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +74,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B887A8626B7C6B10022D89E /* CoreGraphics.framework in Frameworks */,
+				5B887A7026B7C6470022D89E /* libbz2.tbd in Frameworks */,
+				5B887A8926B7C6C30022D89E /* AudioToolbox.framework in Frameworks */,
+				5B887A7326B7C65B0022D89E /* libz.tbd in Frameworks */,
+				5B887A7A26B7C6740022D89E /* QuartzCore.framework in Frameworks */,
+				5B887A8026B7C68D0022D89E /* CoreServices.framework in Frameworks */,
+				5B887A7C26B7C67B0022D89E /* OpenGLES.framework in Frameworks */,
+				5B887A7826B7C66A0022D89E /* VideoToolbox.framework in Frameworks */,
+				5B887A8226B7C6970022D89E /* MediaPlayer.framework in Frameworks */,
+				5B887A7726B7C66A0022D89E /* AudioToolbox.framework in Frameworks */,
+				5B887A7E26B7C6850022D89E /* MobileCoreServices.framework in Frameworks */,
+				5B887A6D26B7C6310022D89E /* libc++.tbd in Frameworks */,
+				BD2B483A7C04BF12DBAA757D /* libPods-IJKPlayerdemo.a in Frameworks */,
+				5B887A8826B7C6B90022D89E /* AVFoundation.framework in Frameworks */,
+				5B887A8426B7C6A80022D89E /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +100,8 @@
 			children = (
 				5B8879D626B78B9B0022D89E /* IJKPlayerdemo */,
 				5B8879D526B78B9B0022D89E /* Products */,
+				79A5188304B5461ABA73B9CA /* Pods */,
+				7BA2B767C9202CA115FB0EF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +116,60 @@
 		5B8879D626B78B9B0022D89E /* IJKPlayerdemo */ = {
 			isa = PBXGroup;
 			children = (
-				5B8879D726B78B9B0022D89E /* AppDelegate.swift */,
-				5B8879D926B78B9B0022D89E /* SceneDelegate.swift */,
-				5B8879DB26B78B9B0022D89E /* ViewController.swift */,
+				5B887A6026B7C59D0022D89E /* AppDelegate.swift */,
+				5B887A5F26B7C59D0022D89E /* BaseNavViewController.swift */,
+				5B887A5E26B7C59D0022D89E /* CommonDefines.swift */,
+				5B887A6126B7C59D0022D89E /* ViewController.swift */,
+				5B887A5126B7C5780022D89E /* IJKPlayer */,
 				5B8879DD26B78B9B0022D89E /* Main.storyboard */,
 				5B8879E026B78B9D0022D89E /* Assets.xcassets */,
 				5B8879E226B78B9D0022D89E /* LaunchScreen.storyboard */,
 				5B8879E526B78B9D0022D89E /* Info.plist */,
 			);
 			path = IJKPlayerdemo;
+			sourceTree = "<group>";
+		};
+		5B887A5126B7C5780022D89E /* IJKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5B887A5226B7C5780022D89E /* IJKPlayerdemo-Bridging-Header.h */,
+				5B887A5326B7C5780022D89E /* IJKPlayController.swift */,
+				5B887A5426B7C5780022D89E /* UIView+Extension.swift */,
+				5B887A5526B7C5780022D89E /* UIImage+Extension.swift */,
+				5B887A5626B7C5780022D89E /* UIButton+Block.m */,
+				5B887A5726B7C5780022D89E /* UIButton+Block.h */,
+			);
+			path = IJKPlayer;
+			sourceTree = "<group>";
+		};
+		79A5188304B5461ABA73B9CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9971B1CF464BE934334AEC6B /* Pods-IJKPlayerdemo.debug.xcconfig */,
+				1968714E172E735D1801C636 /* Pods-IJKPlayerdemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BA2B767C9202CA115FB0EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B887A8726B7C6B90022D89E /* AVFoundation.framework */,
+				5B887A8526B7C6B10022D89E /* CoreGraphics.framework */,
+				5B887A8326B7C6A80022D89E /* CoreVideo.framework */,
+				5B887A8126B7C6970022D89E /* MediaPlayer.framework */,
+				5B887A7F26B7C68D0022D89E /* CoreServices.framework */,
+				5B887A7D26B7C6850022D89E /* MobileCoreServices.framework */,
+				5B887A7B26B7C67B0022D89E /* OpenGLES.framework */,
+				5B887A7926B7C6740022D89E /* QuartzCore.framework */,
+				5B887A7526B7C66A0022D89E /* AudioToolbox.framework */,
+				5B887A7626B7C66A0022D89E /* VideoToolbox.framework */,
+				5B887A7226B7C6540022D89E /* libz.tbd */,
+				5B887A6F26B7C6390022D89E /* libbz2.tbd */,
+				5B887A6C26B7C6270022D89E /* libc++.tbd */,
+				D833523016B8FFC32CEB1136 /* libPods-IJKPlayerdemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B8879E826B78B9D0022D89E /* Build configuration list for PBXNativeTarget "IJKPlayerdemo" */;
 			buildPhases = (
+				A24D5C7C861C31F1097BB47A /* [CP] Check Pods Manifest.lock */,
 				5B8879D026B78B9B0022D89E /* Sources */,
 				5B8879D126B78B9B0022D89E /* Frameworks */,
 				5B8879D226B78B9B0022D89E /* Resources */,
@@ -132,14 +238,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A24D5C7C861C31F1097BB47A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IJKPlayerdemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B8879D026B78B9B0022D89E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8879DC26B78B9B0022D89E /* ViewController.swift in Sources */,
-				5B8879D826B78B9B0022D89E /* AppDelegate.swift in Sources */,
-				5B8879DA26B78B9B0022D89E /* SceneDelegate.swift in Sources */,
+				5B887A5826B7C5780022D89E /* IJKPlayController.swift in Sources */,
+				5B887A6226B7C59D0022D89E /* CommonDefines.swift in Sources */,
+				5B887A5A26B7C5780022D89E /* UIImage+Extension.swift in Sources */,
+				5B887A5B26B7C5780022D89E /* UIButton+Block.m in Sources */,
+				5B887A6426B7C59D0022D89E /* AppDelegate.swift in Sources */,
+				5B887A5926B7C5780022D89E /* UIView+Extension.swift in Sources */,
+				5B887A6526B7C59D0022D89E /* ViewController.swift in Sources */,
+				5B887A6326B7C59D0022D89E /* BaseNavViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +419,7 @@
 		};
 		5B8879E926B78B9D0022D89E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9971B1CF464BE934334AEC6B /* Pods-IJKPlayerdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +439,7 @@
 		};
 		5B8879EA26B78B9D0022D89E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1968714E172E735D1801C636 /* Pods-IJKPlayerdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
