@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5FB29426B8D81000D10BE3 /* StatusBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FB29326B8D81000D10BE3 /* StatusBar+Extension.swift */; };
 		5B8879DF26B78B9B0022D89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879DD26B78B9B0022D89E /* Main.storyboard */; };
 		5B8879E126B78B9D0022D89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879E026B78B9D0022D89E /* Assets.xcassets */; };
 		5B8879E426B78B9D0022D89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879E226B78B9D0022D89E /* LaunchScreen.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1968714E172E735D1801C636 /* Pods-IJKPlayerdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKPlayerdemo.release.xcconfig"; path = "Target Support Files/Pods-IJKPlayerdemo/Pods-IJKPlayerdemo.release.xcconfig"; sourceTree = "<group>"; };
+		5B5FB29326B8D81000D10BE3 /* StatusBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusBar+Extension.swift"; sourceTree = "<group>"; };
 		5B8879D426B78B9B0022D89E /* IJKPlayerdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJKPlayerdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8879DE26B78B9B0022D89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B8879E026B78B9D0022D89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,11 +118,11 @@
 		5B8879D626B78B9B0022D89E /* IJKPlayerdemo */ = {
 			isa = PBXGroup;
 			children = (
+				5B887A5126B7C5780022D89E /* IJKPlayer */,
 				5B887A6026B7C59D0022D89E /* AppDelegate.swift */,
 				5B887A5F26B7C59D0022D89E /* BaseNavViewController.swift */,
 				5B887A5E26B7C59D0022D89E /* CommonDefines.swift */,
 				5B887A6126B7C59D0022D89E /* ViewController.swift */,
-				5B887A5126B7C5780022D89E /* IJKPlayer */,
 				5B8879DD26B78B9B0022D89E /* Main.storyboard */,
 				5B8879E026B78B9D0022D89E /* Assets.xcassets */,
 				5B8879E226B78B9D0022D89E /* LaunchScreen.storyboard */,
@@ -138,6 +140,7 @@
 				5B887A5526B7C5780022D89E /* UIImage+Extension.swift */,
 				5B887A5626B7C5780022D89E /* UIButton+Block.m */,
 				5B887A5726B7C5780022D89E /* UIButton+Block.h */,
+				5B5FB29326B8D81000D10BE3 /* StatusBar+Extension.swift */,
 			);
 			path = IJKPlayer;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5FB29426B8D81000D10BE3 /* StatusBar+Extension.swift in Sources */,
 				5B887A5826B7C5780022D89E /* IJKPlayController.swift in Sources */,
 				5B887A6226B7C59D0022D89E /* CommonDefines.swift in Sources */,
 				5B887A5A26B7C5780022D89E /* UIImage+Extension.swift in Sources */,
@@ -424,7 +428,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K7AAZY6LM;
+				DEVELOPMENT_TEAM = 9SJ3X49YY2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKPlayerdemo/IJKPlayer",
+				);
 				INFOPLIST_FILE = IJKPlayerdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,6 +440,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jintong.IJKPlayerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jinjintong/Desktop/IJKPlayerDemo/IJKPlayerdemo/IJKPlayerdemo/IJKPlayer/IJKPlayerdemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,7 +453,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K7AAZY6LM;
+				DEVELOPMENT_TEAM = 9SJ3X49YY2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IJKPlayerdemo/IJKPlayer",
+				);
 				INFOPLIST_FILE = IJKPlayerdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jintong.IJKPlayerdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jinjintong/Desktop/IJKPlayerDemo/IJKPlayerdemo/IJKPlayerdemo/IJKPlayer/IJKPlayerdemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

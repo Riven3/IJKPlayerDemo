@@ -140,7 +140,7 @@ class ViewController: UIViewController,UICollectionViewDelegateFlowLayout, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .white
         view.addSubview(ijkListView)
         ijkListView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()

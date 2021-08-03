@@ -80,7 +80,6 @@ class IJKPlayController: UIViewController,UITableViewDelegate,UITableViewDataSou
     }()
     
 
-    
     //播放器
     lazy var ffPlayer: IJKFFMoviePlayerController = {
         let options: IJKFFOptions = IJKFFOptions.byDefault()
@@ -373,9 +372,9 @@ extension IJKPlayController {
     }
 
     
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
+//    override var prefersStatusBarHidden: Bool {
+//        return true
+//    }
 }
 //MARK: 控制栏自动隐藏
 extension IJKPlayController {

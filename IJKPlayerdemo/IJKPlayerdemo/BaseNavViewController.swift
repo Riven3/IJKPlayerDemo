@@ -16,7 +16,9 @@ class BaseNavViewController: UINavigationController, UINavigationControllerDeleg
         //configSubviews()
         self.delegate = self
         view.backgroundColor = .white
+        //statusBarHiddenFunc()
         // Do any additional setup after loading the view.
+        configNavgationBar()
     }
 }
 
